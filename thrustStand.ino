@@ -7,11 +7,14 @@
  * (c) 2018 Bogdan Necula
  *
  * Modified by Ayden Nguyen from UBC AeroDesign
+ *
  * Integrates thrust measurement into an automated ESC controller for easy thrust testing
  * Uses UBC AeroDesign's existing thrust stand through USB communication
  * Once sensors are calibrated, enter serial monitor, press "b" to begin, "r" to recalibrate load cell,
    and any other character to stop test immediately. Ensure "No Line Ending" is selected next to input box (otherwise wrong characters will be detected)
    - Left column is the throttle percentage, right column is the thrust in lbs
+ *
+ * https://github.com/u759/UBC-AeroDesign-Thrust-Stand
  *
  *
 **/
