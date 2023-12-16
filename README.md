@@ -6,5 +6,5 @@ TLDR:
 - Wait for the sensor to calibrate
 - Set serial input to "No Line Ending"
 - Enter "b" to begin test, "r" to recalibrate, or any other character to STOP test immediately
-- Copy readings to spreadsheet for analysis.
+- Copy readings to spreadsheet for analysis
 - The left column is the throttle percentage, right column is the thrust in lbs.
