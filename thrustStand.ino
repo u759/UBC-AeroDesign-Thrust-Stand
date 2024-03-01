@@ -40,7 +40,7 @@ HX711 scale;
 void setup() {
   Serial.begin(38400);
   ESC.attach(ESC_PIN, 1000, 2000);  // (pin, min pulse width, max pulse width in microseconds)
-
+  ESC.write(0);
 
   Serial.println("Welcome to the Thrust Stand!");
 
