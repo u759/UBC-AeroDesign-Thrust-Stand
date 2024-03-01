@@ -108,8 +108,8 @@ void loop() {
   }
 
 
-  if (incomingByte == 98 && millis() - timepoint < 3600) {         //run thrust test for 23s (extra 3 seconds on max power to minimize error)
-    int speed = 1000 + 100 + 100 * ((millis() - timepoint) / 300);   //increment throttle by 10% every 2 seconds
+  if (incomingByte == 98 && millis() - timepoint < 3600) {         //run thrust test for 3.6s
+    int speed = 1000 + 100 + 100 * ((millis() - timepoint) / 300);   //increment throttle by 10% every 300 milliseconds
     ESC.write(speed);
 
     if (millis() - timepoint > 3500 && i != 1) {   //calculates thrust after propeller speed is stable
